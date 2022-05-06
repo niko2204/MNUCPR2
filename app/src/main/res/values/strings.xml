@@ -3,4 +3,6 @@
 
     <string name="intro_text">목포대학교 CPU GUIDE SYSTEM</string>
     <string name="developer">이영호, 김선경, 최종명</string>
+    <string name="btn_start_training">CPR교육</string>
+    <string name="btn_start_Selftraining">자가학습</string>
 </resources>
