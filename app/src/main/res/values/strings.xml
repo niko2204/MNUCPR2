@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">MNU CPR Guide</string>
 
-    <string name="intro_text">목포대학교 CPU GUIDE SYSTEM</string>
-    <string name="developer">이영호, 김선경, 최종명</string>
+    <string name="intro_text">목포대학교 CPR GUIDE SYSTEM</string>
+    <string name="developer">이영호, 김선경, 박건우, 최종명, 문지현, 고영혜, 양효정</string>
     <string name="btn_start_training">CPR교육</string>
     <string name="btn_start_Selftraining">자가학습</string>
 </resources>

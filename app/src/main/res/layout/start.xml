@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBlack">
@@ -12,11 +12,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:background="@color/colorBlack"
         android:onClick="mOnClick"
         android:text="@string/btn_start_training"
         android:textColor="@color/colorWhite"
-        android:textSize="90sp"
+        android:textSize="70sp"
         tools:ignore="UsingOnClickInXml" />
 
     <Button
@@ -26,8 +25,8 @@
         android:layout_gravity="center"
         android:layout_weight="1"
         android:onClick="mOnClickSelf"
-        android:background="@color/colorBlack"
-        android:textSize="90sp"
+        android:textColor="@color/colorWhite"
+        android:textSize="80sp"
         android:text="@string/btn_start_Selftraining"
         tools:ignore="UsingOnClickInXml" />
 
