@@ -1,4 +1,4 @@
-package com.uvr.mnucpr2;
+package com.kakao.talk;
 
 import org.junit.Test;
 

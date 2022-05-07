@@ -1,4 +1,4 @@
-package com.uvr.mnucpr2;
+package com.kakao.talk;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

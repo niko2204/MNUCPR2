@@ -1,4 +1,4 @@
-package com.uvr.mnucpr2;
+package com.kakao.talk;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ public class Start extends AppCompatActivity{
     }
 
     public void mOnClick(View v) {
-        Intent intent = new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 

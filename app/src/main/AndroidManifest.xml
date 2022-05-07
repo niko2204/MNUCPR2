@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.uvr.mnucpr2">
+    package="com.kakao.talk">
     <!-- if you want to load images from the internet -->
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -14,15 +14,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MNUCPR2">
         <activity
-            android:name=".MainActivity"
+            android:name="com.kakao.talk.MainActivity"
             android:screenOrientation="landscape"
             android:exported="true">
         </activity>
 
-        <activity android:name=".MainActivitySelf"
+        <activity android:name="com.kakao.talk.MainActivity_temp"/>
+
+        <activity android:name="com.kakao.talk.MainActivitySelf"
             android:screenOrientation="landscape"/>
 
-        <activity android:name="com.uvr.mnucpr2.Start"
+        <activity android:name="com.kakao.talk.Start"
             android:exported="true"
             android:screenOrientation="landscape">
         <intent-filter>
